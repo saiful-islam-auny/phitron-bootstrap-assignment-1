@@ -1,0 +1,161 @@
+/* Your CSS Code */
+.bg-color {
+    background-color: #a1e9ff;
+}
+
+.iphone {
+    background-color: #FFFFFF;
+    display: flex;
+
+}
+
+
+.Apple {
+    background-color: #ADC2D7;
+    display: flex;
+    gap: 40px;
+
+
+}
+
+.banner-right {
+    background-color: #EDEDED;
+}
+
+.mac-w {
+
+    margin-left: 100px;
+}
+
+.mac {
+    display: flex;
+    gap: 5px;
+    padding-top: 190px;
+
+}
+
+.app-img {
+    margin-top: 60px;
+}
+
+.write-a {
+    margin-top: 50px;
+}
+
+.mac-i {
+    width: 250%;
+}
+
+
+
+button {
+    padding: 20px 30px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #1A187A;
+
+}
+
+@media (max-width: 768px) {
+    .banner-container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .banner-left,
+    .banner-right {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .mac {
+        flex-direction: column;
+    }
+
+    .mac-w,
+    .mac-i {
+        width: 100%;
+    }
+
+
+}
+
+
+.cat {
+    background-color: #a1e9ff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.cat-img {
+    width: 50px;
+}
+
+.Catagories {
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.card {
+    border: none;
+    box-shadow: 5px 5px 10px lightgrey;
+    border-radius: 10px;
+    background-color: rgb(185, 209, 255);
+}
+
+.new-arrived {
+    margin-top: 30px;
+}
+
+.btn-buy {
+    background-image: linear-gradient(to bottom, #383838 0%, #000000 100%);
+    color: white;
+    padding: 9px 25px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.parent {
+
+    background-color: darkslategray;
+    padding: 80px;
+}
+
+.sale h1 {
+    font-size: 60px;
+    font: bold;
+}
+
+.footer-container {
+    padding: 40px;
+    background-color: #004d4d;
+    font-family: 'Lato', sans-serif;
+    color: aliceblue;
+}
+
+.line li {
+    margin-bottom: 8px;
+    list-style: none;
+}
+
+.line-head {
+    margin-bottom: 10px;
+    color: #00ffff;
+}
+
+
+.last-line {
+    color: rgb(48, 94, 97);
+}
+
+.bg-color-sub {
+    margin-top: 50px;
+    background-color: yellowgreen;
+    border-radius: 10px;
+    height: 50vh;
+}
